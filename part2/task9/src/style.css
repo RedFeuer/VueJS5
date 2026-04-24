@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+}
+
+.page {
+  padding: 32px;
+}
+
+button,
+.click-target {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  background: #2f80ed;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.click-target {
+  user-select: none;
+}
+
+.card {
+  padding: 16px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 8px 24px #0000001a;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 16px;
+}
+
+.counter {
+  margin-top: 12px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.info {
+  margin-bottom: 24px;
+  padding: 16px;
+  background: white;
+  border-radius: 12px;
+}
