@@ -1,0 +1,13 @@
+{
+  "name": "lab5-part1-task3-node-geoip",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "dependencies": {
+    "axios": "latest"
+  }
+}
