@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Lab5 Part2 Task1</title>
+  </head>
+
+  <body>
+    <div id="app">
+      <h1>{{ message }}</h1>
+      <p>Vue.js подключён через тег script.</p>
+    </div>
+
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+
+    <script>
+      const { createApp } = Vue
+
+      createApp({
+        data() {
+          return {
+            message: 'Vue работает'
+          }
+        }
+      }).mount('#app')
+    </script>
+  </body>
+</html>
